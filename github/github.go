@@ -135,6 +135,9 @@ const (
 
 	// https://developer.github.com/changes/2019-12-03-internal-visibility-changes/
 	mediaTypeRepositoryVisibilityPreview = "application/vnd.github.nebula-preview+json"
+
+	// https://developer.github.com/changes/2018-02-22-label-description-search-preview/
+	mediaTypeLabelDescriptionSearchPreview = "application/vnd.github.symmetra-preview+json"
 )
 
 // A Client manages communication with the GitHub API.
